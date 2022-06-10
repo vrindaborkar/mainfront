@@ -1,0 +1,14 @@
+.main_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.secondary_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    box-shadow: 0.1rem 1rem 1rem rgb(124, 119, 119);
+
+}
