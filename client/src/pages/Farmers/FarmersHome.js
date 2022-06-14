@@ -1,7 +1,6 @@
 import React , {useEffect , useState} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Farmers.css'
-import './FarmersHome.css'
 
 export default function FarmersHome() {
   const navigate = useNavigate()
@@ -83,7 +82,7 @@ export default function FarmersHome() {
   console.log(inwardData)
   
   return (
-    <>
+    <div className='main_page_farmers'>
       {(Data)?<div className='farmers_main'>
           <div className='farmers_info'>
             <h1 className='heading_primary'>{
@@ -168,7 +167,7 @@ export default function FarmersHome() {
             Logout
           </button>
       </div>:<h2>Loading....</h2>}
-      </>
+      </div>
   );
 }
 

@@ -89,13 +89,13 @@ const handleSubmit = async (event) => {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+          <Avatar sx={{ mt: 10, bgcolor: 'secondary.main' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
             <b>Login</b>
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1, border: 0,padding:"30px",boxShadow:5,backgroundColor:"FFFF99", opacity:0.9}}>
+          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 2, border: 0,padding:"30px",boxShadow:5,backgroundColor:"FFFF99", opacity:0.9}}>
             <TextField
               margin="normal"
               required

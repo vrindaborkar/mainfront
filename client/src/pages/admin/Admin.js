@@ -9,20 +9,14 @@ import MainLayout from '../../layout1/MainLayout';
 
 const Admin = () => {
   return (
-    <div style={{marginTop:"13vh" , fontSize:"1.6rem"}}>
       <Routes>
           <Route path="/" exact element={<Adminpage/>}/>
-          {/*<Route path="/overalldata" element={<OverallData/>}/>*/}
-          
           <Route path="/overalldata" element={<MainLayout />}>
-          <Route index element={<Dashboard />} />
-                    
+          <Route index element={<Dashboard />} />         
           </Route>
-            
           <Route path="/stalls" element={<StallsData/>}/>
           <Route path="/vendorsdata" element={<VendorsData/>}/>
         </Routes>
-    </div>
   )
 }
 

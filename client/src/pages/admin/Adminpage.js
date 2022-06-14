@@ -1,17 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Admin.css'
 
 const Adminpage = () => {
   return (
-    <div style={{marginLeft:"2rem"}}>
-        <div>Adminpage</div>
-        <br/>
-        <Link to={"./stalls"}>Stalls</Link>
-        <br/>
-        <Link to={"./overalldata"}>Overall Data</Link>
-        <br/>
-        <Link to={"./vendorsdata"}>Vendors Requirements</Link>
-        <br/>
+    <div className='admin_main'>
+        <Link to={"./stalls"} className="stalls">Stalls</Link>
+        <Link to={"./overalldata"} className="overalldata">Overall Data</Link>
+        <Link to={"./vendorsdata"} className="vendorsdata">Vendors Data</Link>
     </div>
   )
 }

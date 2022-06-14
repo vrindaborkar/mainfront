@@ -161,8 +161,7 @@
     height: 13vh;
     width: 100vw;
     /* background-image: linear-gradient(to right,white,rgb(1, 158, 1)); */
-    background-color: rgb(152, 187, 124);
-    opacity:0.9;
+    background-color: rgb(148, 194, 111);
     display: flex;
     align-items: center;
     justify-content: center;

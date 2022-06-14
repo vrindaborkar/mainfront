@@ -9,7 +9,7 @@ import './Farmers.css'
 
 function Farmer() {
   return (
-    <div style={{backgroundImage:"https://thumbs.dreamstime.com/b/green-leaf-nature-blurred-greenery-background-beautiful-texture-sunlight-natural-close-up-macro-copy-space-text-167569074.jpg"}}>
+    <div className='main_farmers_page'>
         <Routes>
           <Route path="/" element={<Login/>}/>
           <Route path="/inward" element={<FarmerData/>}/>

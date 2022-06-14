@@ -1,11 +1,17 @@
+.main_customer_page{
+    background-image: url('../../../public/images/green_leaf_back.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 .customer_products {
     width: 50rem;
-    max-width: 90%;
-    margin: 10rem auto;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start ;
+    padding-top: 8rem;
   }
   
   .products_container {
@@ -27,6 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin:1rem auto;
   }
   
 
@@ -72,7 +79,7 @@
     justify-content: center;
     width: 50rem;
     max-width: 90%;
-    margin: 10rem auto;
+    margin: 15rem auto;
   }
     
     .cart_container {
