@@ -2,14 +2,23 @@
 
 .summary-box {
     @include flex(stretch, flex-start);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     &__chart {
-        width: 10rem;
+        width: 7rem;
 
         &__value {
             margin-top: -30%;
             font-weight: 700;
         }
+    }
+
+    &__title{
+        font-size: 1.3rem;
+    }
+
+    &__subtitle{
+        font-size: 1rem;
     }
 
     &__info {

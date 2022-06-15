@@ -33,7 +33,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <img className="mainlogo" src="./images/logo.jpg" alt="img" />
+        <img className="mainlogo" src="../images/logo.jpg" alt="img" />
         <Link to="/" className="navbar-logo" onClick={() => setSidebar(false)}>
           Wingrow Agritech
         </Link>
